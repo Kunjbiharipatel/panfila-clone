@@ -1,0 +1,588 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+width: 100%;
+height: auto;
+
+}
+
+.green-nav{
+width: 100%;
+height: 40px;
+background-color: green;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+.green-nav ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+}
+.content{
+        width: 40%;
+}
+
+.icon{
+       width: 10%;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    position:fixed;
+    color: white;
+}
+.nav img{
+    width: 200px;
+}
+.nav ul{
+    width: 60%;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.hero-section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-image: url(./HD-wallpaper-blade-v8-abstract-android-default-material-stock-zte.jpg)
+
+}
+.text-section{
+    color: white;
+    text-align: center;
+}
+.text-section p{
+    color: yellow;
+    font-size: 20px;
+
+}
+.text-section h1{
+    color: green;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.text-section h2{
+    color: red;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.text-section button{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: yellow;
+    color: black;
+    margin-top: 30px;
+
+
+}
+.green-line{
+    width: 100%;
+    height: 30px;
+background-color: green;
+}
+
+.business-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.img-part{
+    width: 50%;
+}
+.img-part img{
+    width: 600px;
+}
+.text-part{
+    width: 50%;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.text-part h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.text-part h6{
+    font-size: 22px;
+    margin-top: 25px;
+}
+.text-part p{
+    font-size: 18px;
+    margin-top: 25px;
+}
+.text-part button{
+    background-color: green;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+
+}
+.text-part button:hover{
+    background-color: red
+    
+}
+
+.services{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(212, 200, 200);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+h1{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.service-part-one{
+    width: 100%;
+    height:100%;
+    background-color: rgb(212, 200, 200);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin:20px;
+    
+    
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(212, 200, 200);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.service-part-one img{
+    width: 40px;
+    
+}
+
+
+.box h1{
+    font-size: 22px;
+    font-weight: 500;
+    color:black;
+}
+.box h6{
+    font-size:17px;
+    font-weight: 200;
+    color:rgb(87, 77, 77);
+}
+
+.work{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.picture{
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+
+
+.poster-a img{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 22px;
+}
+
+.poster-b img{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+.poster-c img{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+button{
+    width: 150PX;
+    height: 40PX;
+    background-color:green;
+    color: white;
+    border-radius: 20PX;
+    border: none;
+    
+}
+.picture img:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(80%);
+}
+
+ .poster-a{
+    border: 2px solid yellow;
+    border-radius: 20px;
+ }
+ .poster-b{
+    border: 1px solid red;
+    border-radius: 20px;
+ }
+ .poster-c{
+    border: 1px solid green;
+    border-radius: 20px;
+ }
+ 
+ button:hover{
+    background-color: red;
+ }
+
+ .form-section{
+    width: 100%;
+    height: 700px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ .img-parts{
+    width: 50%;
+    height: auto;
+    text-align: center;
+ }
+.img-parts img{
+    width: 500px;
+    margin-top: 20px;
+}
+.img-parts h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 90px;
+       
+}
+.img-parts p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+ .form-parts{
+    width: 50%;
+    height: auto;
+ }
+.FORMS{
+    width: 500PX;
+    height: 600PX;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.FORMS h1{
+    font-size: 40px;
+}
+label{
+    margin-top: 30px;
+    padding-right: 150px;
+}
+.span input{
+width: 130px;
+height: 30px;
+
+
+}
+input{
+    width: 250px;
+    height: 30px;
+
+}
+
+
+
+.form-parts button{
+    width: 90px;
+margin-top: 50px;
+background-color: green;
+color: white;
+}
+.form-parts button:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+.packages{
+    width: 100%;
+    height: 700px;
+}
+
+.packages h1{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.package-part{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(62, 58, 90);
+    color: white;
+}
+.package-part p{
+    font-size: 40px;
+     text-align: center;
+}
+
+
+
+
+
+
+.choose-us{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.choose-us h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.choose-us-box{
+    width: 1100px;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.choose-us-box h2{
+    font-size: 35px;
+}
+.choose-us-box p{
+    font-size: 18px;
+}
+.box-aa{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+.box-bb{
+    width: 300px;
+    height: 400px;
+    background-color:green;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+.box-cc{
+    width: 300px;
+    height: 400px;
+    background-color:orange;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+.testimonials{
+    width: 100%;
+    height:600px;
+    background-color: darkgray;
+text-align: center;
+}
+.testimonials h1{
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.testimonials h6{
+width: 100%;
+height: 40px;
+font-size: 18px;
+margin-top: 10px;
+}
+.testimonialss{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.testimonial-part1{
+    width: 550px;
+    height:400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonial-part2{
+    width: 550px;
+    height:400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonialss img{
+    width: 100px;
+    height: 100px;
+    margin-right: 380px;
+    border-radius: 10px;
+}
+
+
+.testimonialss h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+}
+.testimonialss h6{
+font-size: 16px;
+font-weight: 200;
+padding-right: 100px;
+}
+.testimonialss p{
+    font-size: 20px;
+    padding-left: 110px;
+    padding-right: 20px;
+}
+
+.recognitions{
+    width: 100%;
+    height: 500px;
+}
+.recognitions h1{
+    width:100%;
+    height: 40%;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 110px;
+}
+.box-abcd{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box-abcd img{
+    width: 245px;
+    height: 245px;
+}
+
+.box-rctn-a{
+    width: 250px;
+    height: 250px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.box-rctn-b{
+    width: 250px;
+    height: 250px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.box-rctn-c{
+    width: 250px;
+    height: 250px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.box-rctn-d{
+    width: 250px;
+    height: 250px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
